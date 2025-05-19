@@ -3,30 +3,29 @@ package com.example;
 import java.util.List;
 
 public class Lion {
+    private final Predator predator;
+    private final boolean hasMane;
 
-    boolean hasMane;
-
-    public Lion(String sex) throws Exception {
+    public Lion(String sex, Predator predator) throws Exception {
+        this.predator = predator;
         if ("Самец".equals(sex)) {
-            hasMane = true;
+            this.hasMane = true;
         } else if ("Самка".equals(sex)) {
-            hasMane = false;
+            this.hasMane = false;
         } else {
-            throw new Exception("Используйте допустимые значения пола животного - самей или самка");
+            throw new Exception("Используйте допустимые значения пола");
         }
     }
 
-    Feline feline = new Feline();
-
-    public int getKittens() {
-        return feline.getKittens();
+    public List<String> getFood() throws Exception {
+        return predator.getFood();
     }
 
     public boolean doesHaveMane() {
         return hasMane;
     }
 
-    public List<String> getFood() throws Exception {
-        return feline.getFood("Хищник");
+    public int getKittens() {
+        return predator.getKittens();
     }
 }
