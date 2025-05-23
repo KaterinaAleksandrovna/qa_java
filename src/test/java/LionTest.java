@@ -21,6 +21,7 @@ class LionTest {
         when(mockPredator.getFood()).thenReturn(List.of("Мясо"));
         assertEquals(List.of("Мясо"), lion.getFood());
     }
+    // test
 
     @Test
     void testDoesHaveMane() throws Exception {
