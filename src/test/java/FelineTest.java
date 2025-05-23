@@ -2,8 +2,9 @@
 
 import com.example.Feline;
 import org.junit.jupiter.api.Test;
-import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.*;
+import java.util.List;
 
 class FelineTest {
     private final Feline feline = new Feline();

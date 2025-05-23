@@ -3,8 +3,9 @@ package com.example;
 import java.util.List;
 
 public class Lion {
-    private final Predator predator;
+
     private final boolean hasMane;
+    private final Predator predator;
 
     public Lion(String sex, Predator predator) throws Exception {
         this.predator = predator;
