@@ -11,7 +11,7 @@ public class Animal {
         }
         throw new Exception("Неизвестный вид животного");
     }
-
+//
     public String getFamily() {
         return "Существует несколько семейств: заячьи, беличьи, мышиные, кошачьи, псовые, медвежьи, куньи";
     }

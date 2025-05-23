@@ -12,7 +12,7 @@ public class Cat {
     public String getSound() {
         return "Мяу";
     }
-
+//
     public List<String> getFood() throws Exception {
         return feline.getFood();
     }
