@@ -1,7 +1,7 @@
 package com.example;
 
 import java.util.List;
-//import
+
 
 public class Feline extends Animal implements Predator {
     @Override
