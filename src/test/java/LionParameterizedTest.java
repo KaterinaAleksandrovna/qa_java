@@ -1,5 +1,6 @@
 
 
+import com.example.Feline;
 import com.example.Lion;
 import com.example.Predator;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -23,7 +24,7 @@ class LionParameterizedTest {
             "Самка, false"
     })
     void testManeParameterized(String sex, boolean expectedMane) throws Exception {
-        Lion lion = new Lion(sex, mockPredator);
+        Lion lion = new Lion(sex, (Feline) mockPredator);
         assertEquals(expectedMane, lion.doesHaveMane());
     }
 }
