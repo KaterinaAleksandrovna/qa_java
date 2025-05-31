@@ -1,4 +1,5 @@
-package com.example;
+import com.example.*;
+
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -12,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.*;
 @ExtendWith(MockitoExtension.class)
 class LionTest {
     @Mock
-    private Predator mockPredator;
+    private Feline mockPredator;
 
     @Test
     void testMaleHasMane() throws Exception {
