@@ -1,0 +1,47 @@
+[33mcommit 69511edf0dea2fb4f1e482915e598d3b6edd118c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdev[m[33m)[m
+Author: Ekaterina Fordya <efordya@prm.beeline.ru>
+Date:   Sat May 24 00:33:27 2025 +0500
+
+    Добален комментарий для pull request (попытка 5)
+
+[33mcommit 210a640291aa8c23fb345bc6915193c06820e8d7[m
+Author: Ekaterina Fordya <efordya@prm.beeline.ru>
+Date:   Fri May 23 23:59:15 2025 +0500
+
+    Добален комментарий для pull request (попытка 3)
+
+[33mcommit 43e2ccfb2358701e5608becbe10192652dcc1a50[m[33m ([m[1;31morigin/dev[m[33m)[m
+Author: Ekaterina Fordya <efordya@prm.beeline.ru>
+Date:   Fri May 23 11:49:06 2025 +0500
+
+    Добален комментарий для pull request (попытка 2)
+
+[33mcommit c54fcc9497c220dc846854595ad46d0896ce9fdb[m
+Author: Ekaterina Fordya <efordya@prm.beeline.ru>
+Date:   Fri May 23 11:37:50 2025 +0500
+
+    Добален комментарий для pull request
+
+[33mcommit 656a486248f966e9386b3cb689e1a0c13c261a15[m[33m ([m[1;32mmain[m[33m)[m
+Author: Ekaterina Fordya <efordya@prm.beeline.ru>
+Date:   Fri May 23 10:59:30 2025 +0500
+
+    1. Исправленны классы
+    2. Добавлены тесты
+    3. Добавлены Моки
+    4. Добавлен Jacoco report
+
+[33mcommit 9cc0e6b865d181f6f36f422109cbc076d581bc42[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Ekaterina Fordya <efordya@prm.beeline.ru>
+Date:   Tue May 20 03:12:55 2025 +0500
+
+    1. Исправленны классы
+    2. Добавлены тесты
+    3. Добавлены Моки
+    4. Добавлен Jacoco report
+
+[33mcommit 8eda7db7742223cfe6383f6c7e3e3bc7fb621e9f[m
+Author: KaterinaAleksandrovna <fordya90@gmail.com>
+Date:   Tue May 20 01:03:55 2025 +0500
+
+    Initial commit

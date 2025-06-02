@@ -1,10 +1,12 @@
 
 
+import com.example.Feline;
 import com.example.Lion;
 import com.example.Predator;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
+import org.junit.jupiter.params.ParameterizedTest;
+
 
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
@@ -22,7 +24,7 @@ class LionParameterizedTest {
             "Самка, false"
     })
     void testManeParameterized(String sex, boolean expectedMane) throws Exception {
-        Lion lion = new Lion(sex, mockPredator);
+        Lion lion = new Lion(sex, (Feline) mockPredator);
         assertEquals(expectedMane, lion.doesHaveMane());
     }
 }

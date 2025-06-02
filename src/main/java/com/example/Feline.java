@@ -2,6 +2,7 @@ package com.example;
 
 import java.util.List;
 
+
 public class Feline extends Animal implements Predator {
     @Override
     public List<String> getFood() throws Exception {
@@ -16,4 +17,6 @@ public class Feline extends Animal implements Predator {
     public int getKittens(int kittensCount) {
         return kittensCount;
     }
+
+
 }
